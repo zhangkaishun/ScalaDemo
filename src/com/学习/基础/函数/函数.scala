@@ -13,6 +13,13 @@ object 函数 {
       * 2 如果函数字面量只有一行语句并只带一个参数 ，那么可以省略参数 list.foreach((println)
       */
       list.foreach((temp:Int)=>println(temp))
+    /**
+      * 1 temp2类型为val 且只能是val，可不写
+      *
+      */
+    for(temp2<-list){
+      println(temp2)
+    }
   }
 
   /**
