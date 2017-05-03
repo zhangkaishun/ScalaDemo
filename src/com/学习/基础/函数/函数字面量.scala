@@ -6,7 +6,7 @@ package com.学习.基础.函数
 object 函数字面量 {
   def main(args: Array[String]): Unit = {
     /**
-      * (x:Int)=>x+1  函数字面量
+      * (x:Int)=>x+1  函数字面量  也叫匿名函数
       */
     var hanshu=(x:Int)=>x+1
     println(hanshu(2))
